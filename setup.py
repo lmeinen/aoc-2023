@@ -2,7 +2,7 @@ from setuptools import find_packages
 from setuptools import setup
 
 setup(
-    name="aoc-2023",
+    name="advent_of_code",
     version="1.0.0",
     url="https://github.com/lmeinen/aoc-2023",
     author="Lasse Meinen",
@@ -16,6 +16,6 @@ setup(
     ],
     packages=find_packages(),
     entry_points={
-        "adventofcode.user": ["github.lmeinen.1607830 = aoc_2023:solve"],
+        "adventofcode.user": ["github.lmeinen.1607830 = advent_of_code:solve"],
     },
 )

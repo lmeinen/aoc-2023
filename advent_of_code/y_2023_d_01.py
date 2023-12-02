@@ -1,6 +1,7 @@
-import regex as re
 from functools import cache
 from typing import Callable
+
+import regex as re
 
 
 def solve(data: str, pre: Callable[[str], str]):
