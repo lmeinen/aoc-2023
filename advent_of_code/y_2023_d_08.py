@@ -1,8 +1,6 @@
-import json
 import logging
 import re
 from math import lcm
-from itertools import product, tee
 
 
 def parse(data: str) -> (list[int], dict[str, tuple[str, str]]):
